@@ -133,7 +133,6 @@
       color: #fff;
       margin-left: 0;
       padding: .7rem 2rem;
-      border: 1px solid #873cd8;
       border-radius: 10px;
     }
 
@@ -144,17 +143,18 @@
 
     .menu li:hover {
       padding: 1rem 2rem;
-      transition: 0.4s ease-in-out;
-      border-bottom: 15px solid #5C3783;
-      border-left: 15px solid #873cd8;
-      border-top: 5px solid #873cd8;
-      border-right: 5px solid #5C3783;
+      transition: 0.3s ease-in-out;
       color: #000000;
       font-weight: 900;
     }
 
     .menu li:hover a {
-      font-size: 1.5rem;
+      font-size: 2rem;
+      border-bottom: .3rem dotted;
+    }
+
+    .menu li:hover .last-link {
+      border-bottom: none;
     }
 
     .open-menu, .close-menu {
