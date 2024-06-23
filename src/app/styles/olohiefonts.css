@@ -1,0 +1,50 @@
+@font-face {
+   font-family: ClashBold;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-Bold.otf") format("opentype");
+}
+@font-face {
+   font-family: ClashExtraLight;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-ExtraLight.otf") format("opentype");
+}
+@font-face {
+   font-family: ClashLight;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-Light.otf") format("opentype");
+}
+@font-face {
+   font-family: ClashMedium;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-Medium.otf") format("opentype");
+}
+@font-face {
+   font-family: ClashRegular;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-Regular.otf") format("opentype");
+}
+@font-face {
+   font-family: ClashSemiBold;
+   src: url("/assets/fonts/clashdisplay/ClashDisplay-Semibold.otf") format("opentype");
+}
+
+
+@font-face {
+   font-family: ExconBlack;
+   src: url("/assets/fonts/excon/Excon-Black.otf") format("opentype");
+}
+@font-face {
+   font-family: ExconBold;
+   src: url("/assets/fonts/excon/Excon-Bold.otf") format("opentype");
+}
+@font-face {
+   font-family: ExconLight;
+   src: url("/assets/fonts/excon/Excon-Light.otf") format("opentype");
+}
+@font-face {
+   font-family: ExconMedium;
+   src: url("/assets/fonts/excon/Excon-Medium.otf") format("opentype");
+}
+@font-face {
+   font-family: ExconRegular;
+   src: url("/assets/fonts/excon/Excon-Regular.otf") format("opentype");
+}
+@font-face {
+   font-family: ExconThin;
+   src: url("/assets/fonts/excon/Excon-Thin.otf") format("opentype");
+}

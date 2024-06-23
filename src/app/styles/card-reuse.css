@@ -1,0 +1,247 @@
+/* Header Card */
+
+  .header-card {
+    border: 1px rgba(217, 217, 217, 1);
+    border-radius: 7px;
+  }
+
+  /* .header-card .card-div {
+    padding: 1rem 0 1rem 1.5rem;
+    background: url("../../assets/icons/setup-icons/spiral.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 4% 70% 20%;
+  } */
+
+  .showImgHeaderCard .card-div{
+    padding: 1rem 0 1rem 1.5rem;
+    background: url("../../assets/icons/setup-icons/spiral.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 4% 70% 20%;
+  }
+
+  .showBtnHeaderCard .card-div{
+    padding: 1rem 0 1rem 1.5rem;
+    /* background: url("../../assets/icons/setup-icons/spiral.svg"); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 4% 70% 20%;
+  }
+
+
+
+  .actionBtnDiv{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mat-mdc-unelevated-button.mat-warn {
+    --mdc-filled-button-container-color: red !important;
+    /* --mdc-filled-button-container-color: #f44336; */
+    --mdc-filled-button-label-text-color: #fff;
+}
+
+  .transaction-card .transaction-div {
+    padding: 0.3rem 0 0 1rem;
+    background: url("../../assets/icons/setup-icons/spiral.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 6% 80%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'image-bg trans-name'
+      'image-bg second-name';
+  }
+
+  .image-bg {
+    /* height: 40px; */
+    grid-area: image-bg;
+  }
+
+  .header-card .setup-name {
+    margin: auto 0;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-family: GilroyBold;
+    color: black;
+  }
+
+  .trans-name {
+    grid-area: trans-name;
+    font-weight: 600;
+    color: rgba(231, 0, 0, 1);
+    font-size: 18px;
+    line-height: 27px;
+    font-family: GilroyRegular;
+  }
+
+  .second-name {
+    width: 100%;
+    grid-area: second-name;
+    color: rgba(134, 135, 134, 1);
+    font-size: 14px;
+    line-height: 21px;
+    font-family: GilroyRegular;
+  }
+
+  .header-card .setup-svg {
+    margin: auto 0;
+    width: 16px;
+    height: 16px;
+  }
+
+  .transaction-svg {
+    margin: auto 0;
+    width: 70%;
+    height: 90%;
+  }
+
+/* Body/Setup Card */
+/* Body/Setup Card */
+/* Body/Setup Card */
+/* Body/Setup Card */
+/* Body/Setup Card */
+/* Body/Setup Card */
+
+  .body-card {
+    /* background-color: rgba(217, 217, 217, 1); */
+    margin-top: 15px;
+    box-shadow: none;
+    border-radius: 8px;
+  }
+
+/* Short Card */
+/* Short Card */
+/* Short Card */
+
+  .short-card-top {
+    margin-top: 15px;
+  }
+
+  .short-card {
+    /* background-color: rgba(217, 217, 217, 1); */
+    margin-top: 15px;
+    box-shadow: none;
+    border-radius: 8px;
+  }
+
+/* Dashboard card */
+/* Dashboard card */
+/* Dashboard card */
+
+  .dashboard-card {
+    width: 80%;
+    /* width: 315px; */
+    height: 140px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.65);
+  }
+
+  .dashboard-div {
+    display: grid;
+    grid-template-columns: 8% 81% 10%;
+  }
+
+  .second-grid span {
+    color: rgba(134, 135, 134, 1);
+    font-family: GilroyRegular;
+    height: 3rem;
+    display: block;
+  }
+
+  .second-grid p {
+    color: rgba(51, 51, 51, 1);
+    font-family: GilroyBold;
+    /* font-size: 35px; */
+    line-height: 34px;
+  }
+
+/* Reconciliation Card */
+
+ .recon-card {
+  padding: 0 70px;
+ }
+
+.recon-div {
+  height: 100%;
+}
+
+
+.mat-card-content-class {
+  padding: 0 !important;
+}
+
+@media screen and (max-height: 635px) {
+  .body-card {
+    height: 69vh;
+  }
+}
+
+@media screen and (min-height: 636px) {
+  .body-card {
+    height: 69.5vh;
+  }
+}
+
+@media screen and (min-height: 701px) {
+
+  .body-card {
+    height: 77vh;
+  }
+}
+
+@media screen and (min-height: 780px) {
+
+  .body-card {
+    height: 78vh;
+  }
+}
+
+@media screen and (min-height: 900px) {
+
+  .body-card {
+    height: 81vh;
+  }
+
+}
+
+@media screen and (min-height: 942px) {
+
+  .body-card {
+    height: 82vh;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .second-grid p {
+    font-size: 27px;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+  .second-grid p {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .second-grid p {
+    font-size: 35px;
+  }
+
+}

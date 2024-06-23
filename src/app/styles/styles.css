@@ -1,0 +1,148 @@
+@import "../styles/material.css";
+@import "../styles/olohiefonts.css";
+@import "./notify.css";
+
+
+/*
+====================================================
+
+* 	[Master Stylesheet]
+
+	Theme Name :
+	Version    :
+	Author     :
+	Author URI :
+
+====================================================
+
+	TOC
+
+	1. PRIMARY STYLES
+	2. COMMONS FOR PAGE DESIGN
+		JQUERY LIGHT BOX
+	3. LEFT SECTION
+	4. RIGHT SECTION
+
+====================================================
+
+/* ---------------------------------
+1. PRIMARY STYLES
+--------------------------------- */
+
+html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
+
+
+body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden;
+	color: #333; }
+
+.containers {
+  width: 100vw;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header-section {
+  padding: 1rem 1.5rem 0;
+  background-color: #FAFCF3;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+
+h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+
+h1,h2,h3{ font-family: 'Poppins', sans-serif; }
+
+p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
+
+h1{ font-size: 3.5em; line-height: 1; }
+h2{ font-size: 3em; line-height: 1.1; }
+h3{ font-size: 2.5em; }
+h4{ font-size: 1.5em; }
+h5{ font-size: 1.2em; }
+h6{ font-size: .9em; letter-spacing: 1px; }
+
+a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
+
+a:focus, a:active, a:hover,
+button:focus, button:active, button:hover,
+a b.light-color:hover{ 
+  text-decoration: none; color: #E45F74; }
+
+b{ font-weight: 500; }
+
+img{ width: 100%; }
+
+li{ list-style: none; display: inline-block; }
+
+span{ display: inline-block; }
+
+button{ outline: 0; border: 0; background: none; cursor: pointer; }
+
+b.light-color{ color: #444; }
+
+.icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
+
+[class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
+
+/*  */
+/*  */
+/* SCROLL BAR STYLES */
+/* SCROLL BAR STYLES */
+/* SCROLL BAR STYLES */
+/* SCROLL BAR STYLES */
+/* SCROLL BAR STYLES */
+/*  */
+/*  */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B1A8A8), to(#B1A8A8));
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .25), inset -2px -2px 2px rgba(0, 0, 0, .25)
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(to right, #bebdbd, #bebdbd 1px, #bebdbd 1px, #bebdbd)
+}
+
+/* .spinner {
+  border: 8px solid rgba(0, 0, 0, 0.4);
+  border-left-color: #E70000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* .overlay .spinner {
+} */

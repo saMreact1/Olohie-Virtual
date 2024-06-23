@@ -1,0 +1,718 @@
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+
+.header-section {
+   background-color: #ffffff;
+}
+
+.header-grid {
+   display: grid;
+   grid-template-columns: 55% auto;
+   background: #ffffff;
+   margin: 1rem -3rem;
+}
+
+.header-left {
+   padding: 4rem 3.5rem 0;
+}
+
+.header-left h3 {
+   font-family: ClashSemiBold;
+   font-size: 53px;
+   font-weight: 500;
+}
+
+.header-left span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.header-grid .header-right-top {
+   display: none;
+}
+
+.header-right {
+   display: grid;
+   align-items: center;
+   justify-content: flex-end;
+   width: 100%;
+}
+
+.header-right .about-img {
+   width: 42rem;
+}
+
+/* VISION SECTION */
+/* VISION SECTION */
+/* VISION SECTION */
+/* VISION SECTION */
+
+.vision-section {
+   margin: 3.5rem;
+   display: grid;
+   grid-template-columns: 52% 48%;
+   background: #ffffff;
+}
+
+.vision-section .vision-right {
+   padding: 1rem 0 2rem 3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.vision-section .vision-right h1 {
+   font-family: ClashSemiBold;
+   font-weight: 700;
+   font-size: 11.5rem;
+   color: rgba(31, 31, 31, 0.1);
+}
+
+.vision-section .vision-right span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.vision-section .vision-left img {
+   border-radius: 10px;
+}
+
+.vision-section .vision-left-bottom {
+   display: none;
+}
+
+/* MISSION SECTION */
+/* MISSION SECTION */
+/* MISSION SECTION */
+/* MISSION SECTION */
+
+.mission-section {
+   margin: 3.5rem;
+   display: grid;
+   grid-template-columns: 47% 53%;
+   background: #ffffff;
+}
+
+.mission-section .mission-left {
+   padding: 3rem 2rem 3rem 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.mission-section .mission-left h1 {
+   font-family: ClashSemiBold;
+   font-weight: 700;
+   font-size: 11.5rem;
+   color: rgba(31, 31, 31, 0.1);
+}
+
+.mission-section .mission-left span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.mission-section .mission-right-top {
+   display: none;
+}
+
+.mission-section .mission-right img {
+   border-radius: 10px;
+}
+
+/* SERVICES SECTION */
+/* SERVICES SECTION */
+/* SERVICES SECTION */
+/* SERVICES SECTION */
+
+.services-section {
+   margin-bottom: 3rem;
+   padding: 4rem 3.5rem 3rem;
+   background-color: #5C3783;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.services-section h1 {
+   color: #FFFFFF;
+   font-family: ClashSemiBold;
+   font-weight: 700;
+   font-size: 2.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.services-section .services-images {
+   margin: 3rem 0;
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-column-gap: 2.5%;
+   grid-row-gap: 5%;
+   position: relative;
+}
+
+.services-section .services-images div img {
+   border-radius: 1rem;
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.services-section .services-images span {
+   font-family: ExconRegular;
+   color: #FFFFFF;
+}
+
+.services-images .service-title {
+   position: absolute;
+   bottom: 1rem;
+   left: 1.5rem;
+   font-size: 1.2rem;
+   font-weight: bold;
+   z-index: 99999;
+ }
+
+.dark-overlay {
+   position: relative;
+   cursor: pointer;
+}
+
+.dark-overlay::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+   border-radius: 1rem;
+}
+
+.dark-overlay:hover::after {
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.dark-overlay:hover::after span {
+   color: #1F1F1F !important;
+}
+
+/* TEAM SECTION */
+/* TEAM SECTION */
+/* TEAM SECTION */
+/* TEAM SECTION */
+
+.team-section {
+   padding: 1rem 3.5rem 2rem;
+}
+
+.team-section .title {
+   display: grid;
+   grid-template-rows: auto auto;
+   align-items: center;
+   justify-content: center;
+   grid-gap: 1rem;
+   margin-bottom: 2rem;
+}
+
+.team-section .title h3 {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashSemiBold;
+   font-size: 2rem;
+   color: #1F1F1F;
+}
+
+.team-section .title span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashRegular;
+   font-size: 1rem;
+   color: #1F1F1F;
+}
+
+.team-section .team-images {
+   margin: 3rem 0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 2%;
+   position: relative;
+}
+
+.team-section .team-images .dark img {
+   border-radius: 10px;
+}
+
+.team-section .team-images .dark h4 {
+   font-family: ExconRegular;
+   font-weight: 600;
+   font-size: 1.3rem;
+   line-height: 1.5rem;
+   color: #000000;
+}
+
+.team-section .team-images .dark span {
+   font-family: ExconRegular;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.2rem;
+   color: #000000;
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+/* HEADER SECTION */
+@media (min-width: 1750px) {
+      
+   .header-right .about-img {
+      width: 49rem;
+   }
+
+   .header-left span {
+      font-family: ExconRegular;
+      font-size: 19px;
+   }
+
+   .vision-right h1 {
+      font-size: 15.5rem !important;
+   }
+}
+
+
+@media (min-width: 1650px) {
+       
+   .header-right .about-img {
+      width: 45rem;
+   }
+
+   .header-left span {
+      font-family: ExconRegular;
+      font-size: 17px;
+   }
+
+   .vision-right h1 {
+      font-size: 13.5rem !important;
+   }
+}
+
+
+
+@media screen and (max-width: 1115px) {
+   .header-right .about-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+   }
+   
+   .vision-section .vision-right h1 {
+      font-size: 9.5rem;
+   }
+   
+   .vision-section .vision-right span {
+      line-height: 1.6rem;
+   }
+   
+   .vision-section .vision-left img {
+      height: 100%;
+      border-radius: 10px;
+   }
+   
+   .mission-section .mission-left h1 {
+      font-size: 9.5rem;
+   }
+   
+   .mission-section .mission-left span {
+      line-height: 1.6rem;
+   }
+   
+   .mission-section .mission-right img {
+      height: 100%;
+      border-radius: 10px;
+   }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1060px) {
+   .services-images .service-title {
+      font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+   .vision-section .vision-right h1 {
+      font-size: 9.5rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 9rem;
+   }
+
+   .services-images .service-title {
+      font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+
+   .mission-section .mission-left h1 {
+      font-size: 8.5rem;
+   }
+
+   .services-images .service-title {
+      font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+
+   .mission-section .mission-left h1 {
+      font-size: 7.5rem;
+   }
+
+   .services-images .service-title {
+      font-size: .8rem;
+    }
+}
+
+
+@media screen and (max-width: 845px) {
+   .header-left span {
+      font-size: 1rem;
+      line-height: 1.8xrem;
+   }
+
+   .vision-section .vision-right h1 {
+      font-size: 7.5rem;
+   }
+
+   .vision-section .vision-right span {
+      font-size: 1rem;
+      line-height: 1.8rem;
+   }
+
+   .mission-section .mission-left span {
+      font-size: 1rem;
+      line-height: 1.8rem;
+   }
+}
+
+
+@media screen and (max-width: 800px) {
+
+   .header-grid {
+      grid-template-columns: 100%;
+   }
+
+   .vision-section {
+      grid-template-columns: 100%;
+      margin: 2rem 3.5rem;
+   }
+
+   .vision-section .vision-left {
+      display: none;
+   }
+
+   .vision-section .vision-left-bottom {
+      display: block;
+   }
+
+   .vision-section .vision-right {
+      padding-left: 0;
+   }
+
+   .vision-section .vision-right h1 br {
+      display: none;
+   }
+
+   .mission-section {
+      margin: 1rem 3.5rem 4rem;
+      grid-template-columns: 100%;
+   }
+
+   .mission-section .mission-left h1 br {
+      display: none;
+   }
+
+   .services-images .service-title {
+      font-size: .7rem;
+    }
+
+   .team-section .team-images .dark img {
+      border-radius: 10px;
+      height: 15rem;
+   }
+}
+
+
+@media screen and (max-width: 760px) {
+   .services-section {
+      padding: 3rem 3.5rem 5rem;
+   }
+
+   .services-section .services-images {
+      grid-template-columns: repeat(2, auto);
+   }
+
+   .services-images .service-title {
+      font-size: 1rem;
+   }
+}
+
+
+@media screen and (max-width: 670px) {
+
+   .vision-section .vision-right h1 {
+      font-size: 6rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 6rem;
+   }
+
+   .services-images .service-title {
+      font-size: .88rem;
+    }
+
+    .team-section .title {
+      text-align: center;
+    }
+
+    .team-section .title span {
+      display: inline;
+    }
+
+    .team-section .team-images .dark img {
+      height: 12rem;
+   }
+
+   .team-section .team-images .dark h4 {
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+   }
+   
+   .team-section .team-images .dark span {
+      font-size: .88rem;
+      line-height: 1.2rem;
+   }
+}
+
+
+@media screen and (max-width: 610px) {
+
+   .services-images .service-title {
+      font-size: .8rem;
+   }
+}
+
+
+@media screen and (max-width: 570px) {
+
+   .services-images .service-title {
+      font-size: .7rem;
+   }
+}
+
+
+@media screen and (max-width: 556px) {
+
+   .vision-section .vision-right h1,
+   .mission-section .mission-left h1 {
+      font-size: 5rem;
+   }
+}
+
+
+@media screen and (max-width: 548px) {
+
+   .header-section .header-grid .header-right-top {
+      display: none;
+   }
+
+   .header-right {
+      display: block;
+   }
+
+   .header-left {
+      text-align: center;
+   }
+
+   .vision-section .vision-right {
+      text-align: center;
+   }
+
+   .vision-section .vision-right span br {
+      display: none;
+   }
+
+   .mission-section .mission-left {
+      text-align: center;
+   }
+
+   .mission-section .mission-right-top {
+      display: none;
+   }
+
+   .mission-section .mission-right {
+      display: block;
+   }
+
+   .team-section .team-images {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+
+@media screen and (max-width: 520px) {
+   .services-section {
+      padding: 3rem 3.5rem 9rem;
+   }
+
+   .services-section .services-images {
+      grid-template-columns: repeat(1, auto);
+      grid-row-gap: 1.5%;
+   }
+
+   .services-images .service-title {
+      font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+   .services-section {
+      padding: 3rem 3.5rem 7rem;
+   }
+}
+
+
+@media screen and (max-width: 485px) {
+   .vision-section .vision-right h1 {
+      font-size: 4.5rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 4.5rem;
+   }
+}
+
+
+@media screen and (max-width: 475px) {
+
+   .header-left h3 {
+      font-family: ClashSemiBold;
+      font-size: 2rem;
+      font-weight: 500;
+   }
+
+   .team-section {
+      margin-bottom: 3rem;
+   }
+
+   .team-section .team-images {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 4%;
+   }
+
+   .team-section .team-images .dark img {
+      height: 17rem;
+   }
+}
+
+
+@media screen and (max-width: 456px) {
+   
+}
+
+
+@media screen and (max-width: 447px) {
+   .vision-section .vision-right h1 {
+      font-size: 4rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 4rem;
+   }
+
+   .services-images .service-title {
+      font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 435px) {
+
+   .services-section h1 {
+      font-size: 1.5rem;
+   }
+}
+
+
+@media screen and (max-width: 415px) {
+
+   .vision-section .vision-right h1 {
+      font-size: 3rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 3rem;
+   }
+}
+
+
+@media screen and (max-width: 400px) {
+
+   .services-images .service-title {
+      font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 379px) {
+   .vision-section .vision-right h1 {
+      font-size: 2.7rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 2.7rem;
+   }
+
+   .services-section {
+      padding: 3rem 3.5rem 6rem;
+   }
+}
+
+
+@media screen and (max-width: 359px) {
+   .vision-section .vision-right h1 {
+      font-size: 2.5rem;
+   }
+
+   .mission-section .mission-left h1 {
+      font-size: 2.5rem;
+   }
+
+   .services-images .service-title {
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 336px) {
+   
+}

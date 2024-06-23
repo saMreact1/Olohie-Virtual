@@ -1,0 +1,103 @@
+<div class="container">
+   <section class="header-section">
+      <app-nav></app-nav>
+      <div class="header-grid">
+         <div class="header-left">
+            <h3>
+               Pricing
+            </h3>
+            <span class="mt-1">
+               Discover the perfect plan to suit your needs and budget with our flexible pricing options.
+               <br>
+               Whether you're a small startup or a large enterprise, we have tailored packages designed to help you thrive without breaking the bank.
+            </span>
+         </div>
+         <div class="header-right">
+            <img src="assets/icons/pricing.svg" alt="" class="services-img">
+         </div>
+      </div>
+   </section>
+   <section class="admin-section">
+      <div class="title">
+         <h3> Administrative Services </h3>
+         <div>
+            <span>
+               All subscription are to be done monthly with a 
+            </span>
+            <span>
+               minimum of 3 months agreement.
+            </span>
+         </div>
+      </div>
+      <div class="admin-grid">
+         <div class="grid-item" [ngClass]="item.class" *ngFor="let item of adminGridItems">
+            <img [src]="item.imageSrc" alt="" width="50" height="50">
+            <h4>{{item.title}}</h4>
+            <span class="amount"> {{item.amount}} </span>
+            <span class="duration"> {{item.duration}} </span>
+
+            <div class="specs-div">
+               <span class="specs"> {{item.specs}} </span>
+            </div>
+
+            <div class="button-div">
+               <button class="button" [ngClass]="item.buttonClass">
+                  {{item.buttonTitle}}
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="social-media-section">
+      <div class="title">
+         <h3> Social Media Management </h3>
+         <div>
+            <span>
+               All subscription are to be done monthly with a 
+            </span>
+            <span>
+               minimum of 3 months agreement.
+            </span>
+         </div>
+      </div>
+      <div class="social-grid">
+         <div class="grid-item" [ngClass]="item.class" *ngFor="let item of socialGridItems">
+            <img [src]="item.imageSrc" alt="" width="50" height="50">
+            <h4>{{item.title}}</h4>
+            <span class="amount"> {{item.amount}} </span>
+            <span class="duration"> {{item.duration}} </span>
+            
+            <div class="specs-div">
+               <ul *ngFor="let item of item.specs">
+                  <li> {{item}} </li>
+               </ul>
+            </div>
+
+            <div class="button-div">
+               <button class="button" [ngClass]="item.buttonClass">
+                  {{item.buttonTitle}}
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="booking-section">
+      <div class="title">
+         <h3> What are you waiting for? </h3>
+         <div>
+            <span>
+               Let Olohie Virtual handle the administrative, social media, HR, and IT tasks, so
+            </span>
+            <span>
+               you can focus on what truly matters
+            </span>
+         </div>
+         <div class="mt-2 booking-section-button">
+            <button (click)="bookingCall()">
+               Book a discovery call
+            </button>
+         </div>
+      </div>
+   </section>
+   <app-footer></app-footer>
+</div>

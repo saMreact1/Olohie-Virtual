@@ -1,0 +1,372 @@
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+
+.header-section {
+   background-color: #ffffff;
+}
+
+.header-section .header-grid {
+   display: grid;
+   grid-template-columns: 51% auto;
+   background: #ffffff;
+   margin: 1rem -3rem;
+}
+
+.header-section .header-left {
+   padding: 4rem 1.5rem 0 3.5rem;
+}
+
+.header-section .header-left h3 {
+   font-family: ClashSemiBold;
+   font-size: 53px;
+   font-weight: 500;
+}
+
+.header-section .header-left span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.header-section .header-right {
+   display: grid;
+   align-items: center;
+   justify-content: flex-end;
+   width: 100%;
+   padding: 0 3.5rem 0 0;
+}
+
+.header-section .header-right .services-img {
+   width: 44rem;
+   border-radius: 6px;
+}
+
+.large-text {
+   margin: 3rem 0;
+   padding: 3rem 3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: auto;
+   width: 100%;
+}
+
+.large-text h1 {
+   font-size: 12rem;
+   line-height: 6rem;
+   font-family: ClashBold;
+   white-space: nowrap;
+   font-weight: 700;
+   color: rgba(0, 0, 0, 0.1);
+}
+
+/* CUSTOMER SERVICE SECTION */
+/* CUSTOMER SERVICE SECTION */
+/* CUSTOMER SERVICE SECTION */
+/* CUSTOMER SERVICE SECTION */
+
+.customer-service-section {
+   background: #F9F9F9;
+   margin: 0 3.5rem;
+}
+
+.image-left {
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   display: grid;
+   grid-template-columns: 52% auto;
+   grid-column-gap: 2%;
+}
+
+.image-left .header-left {
+   padding: 0;
+}
+
+.image-left .header-left img {
+   border-radius: 6px;
+}
+
+.image-left .header-right {
+   margin: 2rem 2rem 2rem 0;
+   display: grid;
+   /* grid-gap: 0.5rem; */
+   grid-template-rows: 11% auto auto 10%;   
+}
+
+.image-left .header-right  h2 {
+   font-family: ExconMedium;
+   font-size: 24px;
+   font-weight: 500;
+   color: #1F1F1F;
+}
+
+.image-left .header-right div:first-child  {
+   display: grid;
+   grid-row-gap: 0.55rem;
+}
+
+.image-left .header-right div:first-child  span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.image-left .header-right ul li {
+   display: list-item;
+   list-style-image: url('../../../../../../assets/icons/checkmark.svg');
+   margin: 0 0 0 3%;
+   padding: 0 2%;
+   font-family: ExconRegular;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.image-left .header-right .buttons {
+   display: flex;
+   grid-column-gap: 3%;
+}
+
+.image-left .header-right .buttons button {
+   padding: 0.3rem 2rem;
+   border-radius: 1.3rem;
+   font-family: ExconRegular;
+   font-size: 15px;
+}
+
+.image-left .header-right .buttons button:hover {
+   padding: 0.3rem 2rem;
+   font-size: 15px;
+   font-family: ExconRegular;
+   font-size: 15px;
+}
+
+.image-left .header-right .buttons .first-button, .image-left .header-right .buttons .second-button:hover {
+   border: 1px solid #5C3783;
+   background-color: #FFFFFF;
+   color: #5C3783;
+}
+
+.image-left .header-right .buttons .first-button:hover, .image-left .header-right .buttons .second-button {
+   border: none;
+   background-color: #5C3783;
+   color: #FFFFFF;
+}
+
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+
+.social-media-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+.image-right {
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   display: grid;
+   grid-template-columns: auto 50%;
+   grid-column-gap: 2%;
+}
+
+.image-right .header-left {
+   margin: 2rem;
+   display: grid;
+   /* grid-gap: 0.5rem; */
+   grid-template-rows: 11% auto auto 10%;
+}
+
+.image-right .header-left h2 {
+   font-family: ExconMedium;
+   font-size: 24px;
+   font-weight: 500;
+   color: #1F1F1F;
+}
+
+.image-right .header-left div:first-child {
+   display: grid;
+   grid-row-gap: 0.55rem;
+}
+
+.image-right .header-left div:first-child span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.image-right .header-left ul li {
+   display: list-item;
+   list-style-image: url('../../../../../../assets/icons/checkmark.svg');
+   margin: 0 0 0 3%;
+   padding: 0 2%;
+   font-family: ExconRegular;
+   font-size: 16px;
+   line-height: 30px;
+}
+
+.image-right .header-left .buttons {
+   display: flex;
+   grid-column-gap: 3%;
+}
+
+.image-right .header-left .buttons button {
+   padding: 0.3rem 2rem;
+   border-radius: 1.3rem;
+   font-family: ExconRegular;
+   font-size: 15px;
+}
+
+.image-right .header-left .buttons button:hover {
+   padding: 0.3rem 2rem;
+   font-size: 15px;
+   font-family: ExconRegular;
+   font-size: 15px;
+}
+
+.image-right .header-left .buttons .first-button, .image-right .header-left .buttons .second-button:hover {
+   border: 1px solid #5C3783;
+   background-color: #FFFFFF;
+   color: #5C3783;
+}
+
+.image-right .header-left .buttons .first-button:hover, .image-right .header-left .buttons .second-button {
+   border: none;
+   background-color: #5C3783;
+   color: #FFFFFF;
+}
+
+.image-right .header-right {
+   padding: 0;
+}
+
+.image-right .header-right img {
+   border-radius: 6px;
+}
+
+/* HUMAN RESOURCES SECTION */
+/* HUMAN RESOURCES SECTION */
+/* HUMAN RESOURCES SECTION */
+/* HUMAN RESOURCES SECTION */
+
+.human-resource-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* EMAIL MGT SECTION */
+/* EMAIL MGT SECTION */
+/* EMAIL MGT SECTION */
+/* EMAIL MGT SECTION */
+
+.email-mgt-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* MEETINGS && PRESENTATION SECTION */
+/* MEETINGS && PRESENTATION SECTION */
+/* MEETINGS && PRESENTATION SECTION */
+/* MEETINGS && PRESENTATION SECTION */
+
+.meetings-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* RESEARCH SECTION */
+/* RESEARCH SECTION */
+/* RESEARCH SECTION */
+/* RESEARCH SECTION */
+
+.research-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* INFORMATION SECTION */
+/* INFORMATION SECTION */
+/* INFORMATION SECTION */
+/* INFORMATION SECTION */
+
+.information-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* BRANDING SECTION */
+/* BRANDING SECTION */
+/* BRANDING SECTION */
+/* BRANDING SECTION */
+
+.branding-section {
+   background: #F9F9F9;
+   margin: 4rem 3.5rem 0;
+}
+
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+
+.booking-section {
+   margin-top: 4rem;
+   padding: 3rem 0 2rem;
+   background-color: #FAFCF3;
+}
+
+.booking-section .title {
+   display: grid;
+   grid-template-rows: auto auto;
+   align-items: center;
+   justify-content: center;
+   grid-gap: 1rem;
+   margin-bottom: 2rem;
+}
+
+.booking-section .title h3 {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashSemiBold;
+   font-weight: 700;
+   font-size: 3rem;
+   color: #5C3783;
+}
+
+.booking-section .title span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashRegular;
+   font-size: 1rem;
+   color: #1F1F1F;
+}
+
+.booking-section .title .booking-section-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.booking-section-button button {
+   background-color: #5C3783;
+   color: #FFFFFF;
+   font-family: ExconRegular;
+   font-size: 16px;
+   line-height: 20px;
+   padding: 15px 20px;
+   border-radius: 7rem;
+   cursor: pointer;
+}
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */

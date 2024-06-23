@@ -1,0 +1,214 @@
+.svg {
+   margin-bottom: -7px;
+}
+
+
+.links {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+   grid-column-gap: 1.5rem;
+   align-items: center;
+}
+
+.links a {
+   font-family: ClashRegular;
+   cursor: pointer;
+}
+
+.links a:hover {
+   color: #000000;
+}
+
+.links a.active {
+   font-family: ClashBold;
+}
+
+.last-link {
+   background-color: #5C3783;
+   padding: 10px 10px;
+   margin-right: .5rem;
+   border-radius: 20px;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.last-link span {
+   color: #FFFFFF;
+}
+
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.menu svg {
+   display: none;
+}
+
+.menu li {
+   padding-left: 2rem;
+}
+
+.menu li a {
+   display: inline-block;
+}
+
+.open-menu, .close-menu {
+   display: none;
+   position: absolute;
+   cursor: pointer;
+   width: 50px;
+}
+
+.open-menu {
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+}
+
+.close-menu {
+   top: .7rem;
+   right: 25px;
+   border-radius: 50%;
+}
+
+#check {
+   display: none;
+}
+
+
+@media screen and (max-width: 1045px) {
+   .menu li {
+      padding-left: 1rem;
+   }
+}
+
+
+
+@media screen and (max-width: 1026px) {
+   .last-link {
+      padding: 10px 8px;
+   }
+}
+
+
+@media screen and (max-width: 950px) {
+   .open-menu {
+      right: 0;
+   }
+}
+
+
+@media (min-width: 0) and (max-width: 1024.9px) {  
+      
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 100;
+      background-color: rgba(92, 55, 131, 0.388);
+      backdrop-filter: blur(15px);
+      box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+    }
+
+    .menu svg {
+      display: block;
+      position: absolute;
+      width: 12rem;
+      top: 1rem;
+      left: 2rem;
+    }
+
+    .menu li {
+      width: 100%;
+      color: #fff;
+      margin-left: 3rem;
+      padding: .7rem 2rem;
+      border: 1px solid #873cd8;
+      border-radius: 10px;
+    }
+
+    .menu li a {
+      padding: 10px;
+      font-size: 1.3rem;
+    }
+
+    .menu li:hover {
+      padding: 1rem 2rem;
+      transition: 0.2s ease-in-out;
+      border: 2px solid #5C3783;
+      border-left: 15px solid #873cd8;
+      color: #000000;
+      font-weight: 900;
+    }
+
+    .menu li:hover a {
+      font-size: 1.5rem;
+    }
+
+    .open-menu, .close-menu {
+      display: block;
+    }
+
+    .close-menu {
+      right: 2.5rem;
+      top: .9rem;
+      width: 40px;
+      padding: 5px;
+      border: 1px solid #26054b;
+    }
+
+    #check:checked ~ .menu {
+      right: 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+   .close-menu {
+      right: 1.5rem;
+      top: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+
+   .svg svg {
+      width: 12rem;
+   }
+
+   .open-menu, .close-menu {
+      width: 40px;
+   }
+}
+
+
+@media screen and (max-width: 390px) {
+
+   .svg svg {
+      width: 10rem;
+   }
+
+   .menu svg {
+      width: 10rem;
+    }
+
+   .open-menu, .close-menu {
+      width: 35px;
+   }
+
+   .close-menu {
+      padding: 3px 6px 6px;
+    }
+}

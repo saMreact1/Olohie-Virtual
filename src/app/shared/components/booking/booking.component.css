@@ -1,0 +1,150 @@
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+    width: 45.5rem;
+    border-radius: 20px;
+    align-items: center;
+    /* Height:500px;   */
+  }
+
+  .modal-grid {
+    display: grid;
+    grid-template-columns: 80% auto;
+    width: 100%;
+  }
+
+  .modal-grid button {
+    display: grid;
+    justify-content: flex-end;
+  }
+
+  .modal-grid button:active, .modal-grid button:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .modalTitle {
+    font-family: ClashSemiBold;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #1F1F1F;
+  }
+  
+  .modalMessage {
+    font-family: ExconRegular;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1F1F1F;
+  }
+
+  .date-time-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-column-gap: 4%;
+    width: 100%;
+  }
+
+  .date-time-grid .date-div, .date-time-grid .time-div {
+    text-align: left;
+  }  
+
+  .date-time-grid h3 {
+    font-family: ExconRegular;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1F1F1F;
+  }
+
+  .date-time-grid .time-div {
+    display: grid;
+    grid-template-rows: 12% 70% 15%;
+  }
+
+  .date-time-grid .time-div .time-rows {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 9%;
+    align-items: center;
+  }
+  
+  .date-time-grid .time-div .time-rows span {
+    border: 2px solid #5C3783;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .date-time-grid .time-div .time-rows span:hover, .date-time-grid .time-div .time-rows span.focus {
+    border: none;
+    background-color: #5C3783;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .date-time-grid .time-div button {
+    margin-top: 1rem;
+    background-color: #5C3783;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 1rem 2.5rem;
+  }
+
+  .icon {
+    color: #E70000;
+    font-size: xxx-large;
+    width: 100px;
+    height: 50px;
+  }
+
+  .mat-mdc-unelevated-button.mat-warn {
+    --mdc-filled-button-container-color: #E70000;
+    --mdc-filled-button-label-text-color: #fff;
+  }
+
+  .modalFooter{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 10px;
+    width: 15rem;
+  }
+
+  .footerbtn {
+    width: 100%;
+    height: 37px;
+  }
+
+  .mat-mdc-outlined-button {
+    --mdc-outlined-button-outline-color: #f44336;
+  }
+
+  .btn-red {
+    background: #E70000;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  .btn {
+    border: 1px solid #E70000;
+    filter: drop-shadow(0px 1px 6px rgba(93, 95, 99, 0.25));
+    border-radius: 4px;
+    color: #E70000;
+  }

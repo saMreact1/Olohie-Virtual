@@ -1,0 +1,32 @@
+<div>
+  <div class="modal-content">
+    <div>
+      <mat-icon class="modal-icon">{{ data.modalIcon }}</mat-icon>
+    </div>
+    <h3 class="modalTitle">{{ data.modalHeaderTitle }}</h3>
+    <p class="modalMessage">{{ data.modalMessage1 }}</p>
+    <p class="modalMessage">{{ data.modalMessage2 }}</p>
+    <div class="modalFooter">
+      <br />
+      <br />
+      <div class="d-flex justify-content-between">
+        <app-medium-transparent-button
+          class=""
+          (btnClick)="closeModal()"
+          [iconNeeded]="false"
+          [textNeeded]="true"
+          text="{{ data.cancelText }}"
+        ></app-medium-transparent-button>
+        &nbsp;&nbsp;&nbsp;
+        <div class="" *ngIf="data.actionBtnText">
+          <app-large-red-button
+            class=""
+            [iconNeeded]="false"
+            text="{{ data.actionBtnText }}"
+            (btnClick)="emitModalAction()"
+          ></app-large-red-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

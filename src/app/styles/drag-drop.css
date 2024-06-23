@@ -1,0 +1,121 @@
+.drag-drop {
+  display: grid;
+  width: 100%;
+  place-content: center;
+  margin-top: 3rem;
+}
+
+.dragDropArea {
+  display: grid;
+  place-items: center;
+  background: #FFFFFF;
+  text-align: center;
+  border: 1px dashed #000000;
+  border-radius: 8px;
+  min-height: 259px;
+  grid-template-rows: 15% 65%;
+  min-width: 463px;
+  padding: 4rem 9px;
+  box-sizing: border-box;
+  font-family: GilroyRegular;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.dragDropArea span {
+  color: #373737;
+}
+
+.uploadArea {
+  display: grid;
+  place-items: center;
+  background: #FFFFFF;
+  text-align: center;
+  border: 1px dashed #000000;
+  border-radius: 8px;
+  min-height: 259px;
+  grid-template-rows: 25% 65%;
+  min-width: 463px;
+  padding: 2.5rem 9px 4rem 9px;
+  box-sizing: border-box;
+  font-family: GilroyRegular;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.uploadArea div {
+  gap: 7px;
+  display: grid;
+}
+
+.uploadArea span {
+  color: #373737;
+}
+
+.dragDropArea > img {
+  max-width: 300px;
+  height: auto;
+}
+
+.uploadArea .submit-click {
+  background-color: rgba(231, 0, 0, 1);
+}
+
+.statements {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.drag-drop .submit-button {
+  width: 50%;
+  top: -6rem;
+  justify-self: center;
+  background-color: rgba(231, 0, 0, 1);
+}
+
+.drag-drop > div {
+  width: 50%;
+  height: 40px;
+  justify-self: center;
+  margin-top: -1rem;
+}
+
+.mat-mdc-progress-bar {
+  border-radius: 15px;
+}
+
+@media screen and (min-height: 783px) {
+  .drag-drop {
+    margin-top: 6.5rem;
+  }
+}
+
+
+@media screen and (max-height: 650px) {
+  .statements {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .drag-drop {
+    margin-top: 1rem;
+  }
+
+  .drag-drop .submit-button {
+    top: -5rem;
+  }
+
+  .dragDropArea {
+    min-height: 210px;
+    grid-template-rows: 16% 58%;
+    min-width: 370px;
+    padding: 3rem 9px;
+  }
+
+  .uploadArea {
+    min-height: 200px;
+    grid-template-rows: 16% 58%;
+    min-width: 370px;
+    padding: 2rem 9px;
+  }
+}

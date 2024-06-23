@@ -1,0 +1,109 @@
+<div class="modal-wrapper">
+  <div class="modal-content" *ngIf="iconNeeded">
+    <mat-icon class="material-icons icon">
+      {{modalIcon}}
+    </mat-icon>
+    <br>
+    <h3 class="modalTitle">{{modalHeaderTitle}}</h3>
+    <p class="modalMessage">{{modalMessage1}}</p>
+    <p class="modalMessage">{{modalMessage2}}</p>
+
+    <div class="modalFooter">
+
+      <button
+        (click)="closeModal()"
+        class="btn footerbtn">
+        <span
+          [style.color]="closeBtnColor">
+          {{ closeBtnText }}
+        </span>
+      </button>
+
+      <button class="btn-red footerbtn" (click)="action()">
+        <span
+          [style.color]="actionBtnColor">
+          {{actionBtnText}}
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal-content" *ngIf="!iconNeeded && !bookingCall">
+    <h3 class="modalTitle">{{modalHeaderTitle}}</h3>
+    <p class="modalMessage">{{modalMessage1}}</p>
+    <p class="modalMessage">{{modalMessage2}}</p>
+
+    <div class="modalFooter">
+
+      <button
+        (click)="closeModal()"
+        class="btn footerbtn">
+        <span
+          [style.color]="closeBtnColor">
+          {{ closeBtnText }}
+        </span>
+      </button>
+
+      <button class="btn-red footerbtn" (click)="action()">
+        <span
+          [style.color]="actionBtnColor">
+          {{actionBtnText}}
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal-content" *ngIf="!iconNeeded && bookingCall">
+    <div class="modal-grid">
+      <div>
+        <h3 class="modalTitle">{{modalHeaderTitle}}</h3>
+        <p class="modalMessage">{{modalMessage1}}</p>
+        <p class="modalMessage">{{modalMessage2}}</p>
+      </div>
+
+      <button class="" (click)="closeBookingModal()">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.75 6.25L6.25 23.75" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6.25 6.25L23.75 23.75" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>          
+      </button>
+    </div>
+
+    <div class="date-time-grid">
+      <div class="date-div">
+        <h3> Select a date </h3>
+        <mat-calendar [(selected)]="selected" [minDate]="minDate"></mat-calendar>
+      </div>
+      <div class="time-div">
+        <h3> Select a time </h3>
+        <div class="time-rows">
+          <span *ngFor="let time of timeRows; let i = index" (click)="toggleFocus($event, i, time)" [class.focus]="focusedSpanIndex === i">
+            {{time}}
+          </span>
+        </div>
+        <button (click)="bookCallNow()">
+          Book Call Now
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="modalFooter">
+
+      <button
+        (click)="closeModal()"
+        class="btn footerbtn">
+        <span
+          [style.color]="closeBtnColor">
+          {{ closeBtnText }}
+        </span>
+      </button>
+
+      <button class="btn-red footerbtn" (click)="action()">
+        <span
+          [style.color]="actionBtnColor">
+          {{actionBtnText}}
+        </span>
+      </button>
+    </div> -->
+  </div>
+</div>

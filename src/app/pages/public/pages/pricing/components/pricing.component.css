@@ -1,0 +1,398 @@
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+/* HEADER SECTION */
+
+.header-section {
+   background-color: #ffffff;
+}
+
+.header-section .header-grid {
+   display: grid;
+   grid-template-columns: 51% auto;
+   background: #ffffff;
+   margin: 1rem 0 3rem;
+}
+
+.header-section .header-left {
+   padding: 4rem 3.5rem 0 0;
+}
+
+.header-section .header-left h3 {
+   font-family: ClashSemiBold;
+   font-size: 53px;
+   font-weight: 500;
+}
+
+.header-section .header-left span {
+   font-family: ExconRegular;
+   font-size: 1.1rem;
+   line-height: 2.1rem;
+   color: #1F1F1F;
+}
+
+.header-section .header-right {
+   display: grid;
+   align-items: center;
+   justify-content: flex-end;
+   width: 100%;
+   padding: 0 3.5rem 0 0;
+}
+
+.header-section .header-right .services-img {
+   width: 38rem;
+}
+
+.large-text {
+   margin: 3rem 0;
+   padding: 3rem 3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: auto;
+   width: 100%;
+}
+
+.large-text h1 {
+   font-size: 12rem;
+   line-height: 6rem;
+   font-family: ClashBold;
+   white-space: nowrap;
+   font-weight: 700;
+   color: rgba(0, 0, 0, 0.1);
+}
+
+/* ADMINISTRATIVE SECTION */
+/* ADMINISTRATIVE SECTION */
+/* ADMINISTRATIVE SECTION */
+/* ADMINISTRATIVE SECTION */
+
+.admin-section {
+   margin: 4rem 3.5rem;
+}
+
+.admin-section .title {
+   display: grid;
+   grid-template-rows: auto auto;
+   align-items: center;
+   justify-content: center;
+   grid-gap: 1rem;
+}
+
+.admin-section .title h3 {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashSemiBold;
+   font-size: 2rem;
+   color: #1F1F1F;
+}
+
+.admin-section .title span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashRegular;
+   font-size: 1rem;
+   color: #1F1F1F;
+}
+
+.admin-section .admin-grid {
+   padding: 3rem 3rem 1rem;
+   display: grid;
+   grid-template-columns: 32% 32% 32%;
+   grid-column-gap: 1.6rem;
+}
+
+.admin-section .admin-grid .grid-item {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   grid-template-rows: 2.5rem 3.2rem 2.5rem 1.5rem 10rem 3rem;
+   background-color: #F9F9F9;
+   padding: 2rem;
+   border: 1px solid #5C3783;
+   border-radius: 1.1rem;
+   cursor: pointer;
+}
+
+.admin-section .admin-grid .second-grid {
+   background-color: #5C3783;
+   border: none;
+   color: #ffffff;
+}
+
+.admin-section .admin-grid .first-grid:hover,
+.admin-section .admin-grid .third-grid:hover {
+   background-color: #F2E8FF;
+}
+
+.admin-section
+.admin-grid .grid-item img,
+.admin-grid .grid-item h4,
+.admin-grid .grid-item span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.admin-section .admin-grid .grid-item h4 {
+   font-family: ExconBold;
+   font-size: 1.8rem;
+   color: #1F1F1F;
+}
+
+.admin-section .admin-grid .second-grid h4,
+.admin-section .admin-grid .second-grid span {
+   color: #FFFFFF !important;
+}
+
+.admin-section .admin-grid .grid-item .amount {
+   font-family: ExconRegular;
+   font-size: 1.3rem;
+   color: #5C3783;
+   font-weight: 600;
+}
+
+.admin-section .admin-grid .grid-item .duration {
+   font-family: ExconRegular;
+   font-size: 1rem;
+   color: #717171;
+}
+
+.admin-section .admin-grid .grid-item .specs-div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.admin-section .admin-grid .grid-item .specs {
+   font-family: ExconRegular;
+   font-size: 20px;
+   line-height: 28.4px;
+   color: #1F1F1F;
+}
+
+.admin-section .admin-grid .grid-item .button-div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.admin-section .admin-grid .grid-item .button {
+   padding: 1rem 2rem;
+   border-radius: 1.3rem;
+   font-family: ExconRegular;
+   font-size: 15px;
+   background-color: #5C3783;
+   color: #FFFFFF;
+}
+
+.admin-section .admin-grid .grid-item .second-button {
+   border: none;
+   background-color: #FFFFFF;
+   color: #5C3783;
+}
+
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+/* SOCIAL MEDIA SECTION */
+
+.social-media-section {
+   margin: 4rem 3.5rem;
+}
+
+.social-media-section .title {
+   display: grid;
+   grid-template-rows: auto auto;
+   align-items: center;
+   justify-content: center;
+   grid-gap: 1rem;
+}
+
+.social-media-section .title h3 {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashSemiBold;
+   font-size: 2rem;
+   color: #1F1F1F;
+}
+
+.social-media-section .title span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashRegular;
+   font-size: 1rem;
+   color: #1F1F1F;
+}
+
+.social-media-section .social-grid {
+   padding: 3rem 3rem 1rem;
+   display: grid;
+   grid-template-columns: 32% 32% 32%;
+   grid-column-gap: 1.6rem;
+}
+
+.social-media-section .social-grid .grid-item {
+   display: grid;
+   align-items: flex-start;
+   justify-content: center;
+   grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 24rem 3rem;
+   background-color: #F9F9F9;
+   padding: 2rem;
+   border: 1px solid #5C3783;
+   border-radius: 1.1rem;
+   cursor: pointer;
+}
+
+.social-media-section .social-grid .second-grid {
+   background-color: #5C3783;
+   border: none;
+   color: #ffffff;
+}
+
+.social-media-section .social-grid .first-grid:hover,
+.social-media-section .social-grid .third-grid:hover {
+   background-color: #F2E8FF;
+}
+
+.social-media-section 
+.social-grid .grid-item img,
+.social-grid .grid-item h4,
+.social-grid .grid-item span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.social-media-section .social-grid .grid-item h4 {
+   font-family: ExconBold;
+   font-size: 1.8rem;
+   color: #1F1F1F;
+}
+
+.social-media-section .social-grid .second-grid h4,
+.social-media-section .social-grid .second-grid span {
+   color: #FFFFFF !important;
+}
+
+.social-media-section .social-grid .grid-item .amount {
+   font-family: ExconRegular;
+   font-size: 1.3rem;
+   color: #5C3783;
+   font-weight: 600;
+}
+
+.social-media-section .social-grid .grid-item .duration {
+   font-family: ExconRegular;
+   font-size: 1rem;
+   color: #717171;
+}
+
+.social-media-section .social-grid .grid-item .specs-div {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+   grid-row-gap: 2%;
+}
+
+.social-media-section .social-grid .grid-item .specs-div ul {
+   display: list-item;
+   list-style-image: url('../../../../../../assets/icons/checkmark.svg');
+   margin: 0 0 0 5%;
+   padding: 5px 4%;
+   align-items: center;
+   justify-content: center;
+   text-align: start;
+}
+
+.social-media-section .social-grid .grid-item .specs-div ul li {
+   font-family: ExconRegular;
+   font-size: 16px;
+}
+
+.social-media-section .social-grid .second-grid .specs-div ul {
+   display: list-item;
+   list-style-image: url('../../../../../../assets/icons/checkmark-white.svg');
+}
+
+.social-media-section .social-grid .grid-item .button-div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.social-media-section .social-grid .grid-item .button {
+   padding: 1rem 2rem;
+   border-radius: 1.3rem;
+   font-family: ExconRegular;
+   font-size: 15px;
+   background-color: #5C3783;
+   color: #FFFFFF;
+}
+
+.social-media-section .social-grid .grid-item .second-button {
+   border: none;
+   background-color: #FFFFFF;
+   color: #5C3783;
+}
+
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+/* BOOKING SECTION */
+
+.booking-section {
+   padding: 3rem 0 2rem;
+   background-color: #FAFCF3;
+}
+
+.booking-section .title {
+   display: grid;
+   grid-template-rows: auto auto;
+   align-items: center;
+   justify-content: center;
+   grid-gap: 1rem;
+   margin-bottom: 2rem;
+}
+
+.booking-section .title h3 {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashSemiBold;
+   font-weight: 700;
+   font-size: 3rem;
+   color: #5C3783;
+}
+
+.booking-section .title span {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   font-family: ClashRegular;
+   font-size: 1rem;
+   color: #1F1F1F;
+}
+
+.booking-section .title .booking-section-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.booking-section-button button {
+   background-color: #5C3783;
+   color: #FFFFFF;
+   font-family: ExconRegular;
+   font-size: 16px;
+   line-height: 20px;
+   padding: 15px 20px;
+   border-radius: 7rem;
+   cursor: pointer;
+}
