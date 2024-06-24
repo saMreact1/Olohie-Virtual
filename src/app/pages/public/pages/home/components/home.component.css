@@ -1539,73 +1539,6 @@
       display: none;
    }
 
-   /* HOW IT WORKS SECTION */
-   /* HOW IT WORKS SECTION */
-   /* HOW IT WORKS SECTION */
-   /* HOW IT WORKS SECTION */
-
-   /* .how-it-works-section {
-      margin-top: 1.5rem;
-      padding: 10px;
-   }
-
-   .how-it-works-section .title {
-      padding: 0 2rem;
-      grid-gap: 1rem;
-      margin-bottom: 2rem;
-      text-align: center;
-   }
-
-   .how-it-works-section .title h3 {
-      margin: 0;
-   }
-
-   .how-it-works-section .title span {
-      display: inline;
-   }
-
-   .how-it-works-section .how-it-works-grid-mobile {
-      display: block;
-      text-align: center;
-   }
-
-   .how-it-works-grid-mobile img {
-      display: block;
-   }
-
-   .how-it-works-section .how-it-works-grid-mobile div {
-      margin-bottom: 1.5rem;
-      padding: 1rem 3rem;
-   }
-
-   .how-it-works-section .how-it-works-grid-mobile div span:nth-of-type(1) {
-      width: 50px;
-      padding: .7rem;
-      margin-right: .7rem;
-      font-size: 1.3rem;
-      border-radius: 50%;
-      background-color: #5C3783;
-      color: #FFFFFF;
-   }
-
-   .how-it-works-section .how-it-works-grid-mobile div span:nth-of-type(2) {
-      font-size: 1.5rem;
-   }
-
-   .how-it-works-section .how-it-works-grid {
-      display: none;
-   }
-
-   .how-it-works-section .how-it-works-grid-mobile div span:nth-of-type(2) {
-      font-family: ExconMedium;
-      font-size: 1.3rem;
-   }
-   
-   .how-it-works-section .how-it-works-grid-mobile div span:nth-of-type(1) {
-      font-family: ExconRegular;
-      font-size: 1rem;
-   } */
-
 
    /* FEEDBACK SECTION */
    /* FEEDBACK SECTION */
@@ -1796,9 +1729,6 @@
 
 
 @media screen and (max-width: 379px) {
-   /* .header-section {
-      padding: 1.4rem;
-   } */
 
    .header-grid {
       grid-template-columns: 100%;

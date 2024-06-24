@@ -40,7 +40,6 @@
 }
 
 .header-section .header-right .services-img {
-   width: 44rem;
    border-radius: 6px;
 }
 
@@ -132,9 +131,11 @@
 
 .image-left .header-right .buttons button {
    padding: 0.3rem 2rem;
+   margin-top: .7rem;
    border-radius: 1.3rem;
    font-family: ExconRegular;
    font-size: 15px;
+   height: 2rem;
 }
 
 .image-left .header-right .buttons button:hover {
@@ -216,10 +217,12 @@
 }
 
 .image-right .header-left .buttons button {
-   padding: 0.3rem 2rem;
+   padding: 0.3rem 1.5rem;
+   margin-top: .7rem;
    border-radius: 1.3rem;
    font-family: ExconRegular;
    font-size: 15px;
+   height: 2rem;
 }
 
 .image-right .header-left .buttons button:hover {
@@ -247,6 +250,10 @@
 
 .image-right .header-right img {
    border-radius: 6px;
+}
+
+.image-right .header-right-top {
+   display: none;
 }
 
 /* HUMAN RESOURCES SECTION */
@@ -370,3 +377,408 @@
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1500px) {
+   
+   .large-text h1 {
+      font-size: 11rem;
+   }
+}
+
+
+@media screen and (max-width: 1364px) {
+   
+   .large-text h1 {
+      font-size: 10rem;
+   }
+
+   .image-left .header-right {
+      margin: 1.5rem 2rem 2rem 0;
+   }
+
+   .image-right .header-left {
+      margin: .5rem 2rem;
+   }
+}
+
+
+@media screen and (max-width: 1339px) {
+   .social-media-section .header-left, .customer-service-section .header-right,
+   .information-section .header-right, .email-mgt-section .header-left,
+   .meetings-section .header-right, .research-section .header-left, .human-resource-section .header-right,
+   .branding-section .header-left {
+      padding-top: 1rem;
+      padding-bottom: 2.5rem;
+   }
+
+   .social-media-section .header-right img, .branding-section .header-right img, .human-resource-section .header-left img,
+   .research-section .header-right img, .meetings-section .header-left img, .email-mgt-section .header-right img,
+   .information-section .header-left img, .customer-service-section .header-left img, .social-media-section .header-right img {
+      height: 100%;
+   }
+}
+
+
+@media screen and (max-width: 1239px) {
+   
+   .large-text h1 {
+      font-size: 9rem;
+   }
+}
+
+
+@media screen and (max-width: 1115px) {
+   
+   .large-text h1 {
+      font-size: 8rem;
+   }
+}
+
+
+@media screen and (max-width: 1020px) {
+   .social-media-section .header-left, .email-mgt-section .header-left {
+      padding-bottom: 4rem;
+   }
+}
+
+
+/* @media screen and (max-width: 1115px) {
+   
+   .large-text h1 {
+      font-size: 7rem;
+   }
+} */
+
+
+@media screen and (max-width: 999px) {
+   .header-section .header-left {
+      padding: 2rem 1.5rem 0 3.5rem;
+   }
+}
+
+
+@media screen and (max-width: 973px) {
+   .image-right .header-left h2 {
+      font-size: 23px;
+   }
+
+   .research-section .header-left, .branding-section .header-left {
+      padding-bottom: 3.5rem;
+   }
+}
+
+
+@media screen and (max-width: 962px) {
+   .image-right .header-left h2 {
+      font-size: 22px;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 22px;
+   }
+}
+
+
+@media screen and (max-width: 913px) {
+   .image-right .header-left h2 {
+      font-size: 21px;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 21px;
+   }
+}
+
+
+@media screen and (max-width: 883px) {
+   .image-right .header-left h2 {
+      font-size: 20px;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 20px;
+   }
+}
+
+
+@media screen and (max-width: 868px) {
+   
+   .large-text h1 {
+      font-size: 6rem;
+   }
+}
+
+
+@media screen and (max-width: 853px) {
+   .header-section .header-grid {
+      grid-template-columns: 100%;
+   }
+
+   .header-section .header-right {
+      padding: 0;
+      margin-top: 2rem;
+   }
+
+   .header-section .header-left {
+      padding: 2rem 3rem;
+   }
+
+   .image-left {
+      grid-template-columns: 100%;
+   }
+
+   .image-left .header-right {
+      margin-left: 2rem;   
+   }
+
+   .image-right {
+      grid-template-columns: 100%;
+   }
+
+   .image-right .header-right {
+      display: none;
+   }
+
+   .image-right .header-right-top {
+      display: block;
+   }
+}
+
+
+@media screen and (max-width: 745px) {
+   
+   .large-text h1 {
+      font-size: 5rem;
+   }
+}
+
+
+@media screen and (max-width: 669px) {
+   
+   .booking-section {
+      padding: 2rem 3rem;
+      text-align: center;
+   }
+
+   .booking-section .title h3 {
+      font-size: 2.5rem;
+   }
+
+   .booking-section .title span {
+      display: inline;
+   }
+}
+
+
+@media screen and (max-width: 622px) {
+   .large-text {
+      padding: 0;
+   }
+   
+   .large-text h1 {
+      font-size: 4rem;
+   }
+}
+
+
+@media screen and (max-width: 509px) {
+   .large-text h1 {
+      font-size: 3rem;
+   }
+
+   .booking-section .title h3 {
+      font-size: 2rem;
+   }
+
+   .header-section .header-left h3 {
+      font-size: 50px;
+      text-align: center;
+   }
+
+   .header-section .header-left span {
+      text-align: center;
+   }
+}
+
+
+@media screen and (max-width: 483px) {
+   .image-left .header-right .buttons {
+      display: grid;
+      grid-template-columns: 100%;
+   }
+
+   .image-right .header-left .buttons {
+      display: grid;
+      grid-template-columns: 100%;
+   }
+
+   .large-text h1 {
+      font-size: 4.5rem;
+      white-space: wrap;
+      text-align: center;
+      line-height: 4rem;
+   }
+}
+
+
+@media screen and (max-width: 471px) {
+   .image-right .header-left h2 {
+      font-size: 23px;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 23px;
+   }
+
+   .customer-service-section, .social-media-section, .information-section, .email-mgt-section,
+   .meetings-section, .research-section, .human-resource-section, .branding-section {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+   }
+}
+
+
+@media screen and (max-width: 451px) {
+   .image-right .header-left h2 {
+      font-size: 1.3rem;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 1.3rem;
+   }
+
+   .header-section .header-left h3 {
+      font-size: 35px;
+   }
+}
+
+
+@media screen and (max-width: 429px) {
+   .image-right .header-left h2 {
+      font-size: 1.2rem;
+   }
+
+   .image-left .header-right {
+      grid-template-rows: 7% auto auto 10%;   
+   }
+
+   .image-right .header-left {
+      grid-template-rows: 7% auto auto 10%;   
+   }
+
+   .image-left .header-right h2 {
+      font-size: 1.2rem;
+   }
+
+   .header-section .header-left span {
+      font-size: 1rem;
+      line-height: 1.7rem;
+   }
+}
+
+
+@media screen and (max-width: 404px) {
+   .image-right .header-left h2 {
+      font-size: 1.1rem;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 1.1rem;
+   }
+
+   .image-left .header-right span {
+      font-size: 16px;
+   }
+
+   .image-right .header-left span {
+      font-size: 16px;
+   }
+
+   .image-left .header-right ul li {
+      font-size: 14px;
+   }
+
+   .image-right .header-left ul li {
+      font-size: 14px;
+   }
+
+   .image-left .header-right {
+      grid-template-rows: 6% auto auto 10%;   
+   }
+
+   .image-right .header-left {
+      grid-template-rows: 6% auto auto 10%;   
+   }
+
+   .large-text h1 {
+      font-size: 4rem;
+   }
+}
+
+
+@media screen and (max-width: 380px) {
+   .image-right .header-left h2 {
+      font-size: 1rem;
+   }
+
+   .image-left .header-right h2 {
+      font-size: 1rem;
+   }
+
+   .image-left .header-right span {
+      font-size: 15px;
+   }
+
+   .image-right .header-left span {
+      font-size: 15px;
+   }
+
+   .image-left .header-right ul li {
+      font-size: 13px;
+   }
+
+   .image-right .header-left ul li {
+      font-size: 13px;
+   }
+
+   .image-left .header-right {
+      grid-template-rows: 5% auto auto 10%;   
+   }
+
+   .image-right .header-left {
+      grid-template-rows: 5% auto auto 10%;   
+   }
+
+   .large-text h1 {
+      font-size: 4rem;
+   }
+}
+
+
+@media screen and (max-width: 356px) {
+   .image-right .header-left h2 {
+      font-size: .9rem;
+   }
+
+   .image-left .header-right h2 {
+      font-size: .9rem;
+   }
+
+   .image-left .header-right span {
+      font-size: 14px;
+   }
+
+   .image-right .header-left span {
+      font-size: 14px;
+   }
+
+   .image-left .header-right ul li {
+      font-size: 12px;
+      line-height: 1.2rem;
+   }
+
+   .image-right .header-left ul li {
+      font-size: 12px;
+      line-height: 1.2rem;
+   }
+}
