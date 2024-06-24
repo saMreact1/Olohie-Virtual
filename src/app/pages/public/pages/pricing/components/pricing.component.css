@@ -15,7 +15,7 @@
 }
 
 .header-section .header-left {
-   padding: 4rem 3.5rem 0 0;
+   padding: 4rem 1.5rem 0 3.5rem;
 }
 
 .header-section .header-left h3 {
@@ -395,4 +395,281 @@
    padding: 15px 20px;
    border-radius: 7rem;
    cursor: pointer;
+}
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1534px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 27rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 1500px) {
+   .header-section .header-right .services-img {
+      width: 34rem;
+   }
+}
+
+
+@media screen and (max-width: 1493px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 30rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 1262px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 33rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 1097px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 37rem 3rem;
+   }
+
+   .header-section .header-right .services-img {
+      width: 100%;
+   }
+
+   .social-media-section .social-grid .grid-item .specs-div ul li {
+      line-height: 23px;
+   }
+}
+
+
+@media screen and (max-width: 1050px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 41rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 1003px) {
+   .social-media-section .social-grid {
+      grid-template-columns: 50% 50%;
+   }
+
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 31rem 3rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(3) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 20rem 3rem;
+      margin-top: 2rem;
+   }
+}
+
+
+@media screen and (max-width: 890px) {
+   .admin-section .admin-grid .grid-item .button {
+      padding: 1rem 1.5rem;
+   }
+
+   .header-section .header-left {
+      padding-top: 1rem;
+   }
+}
+
+
+@media screen and (max-width: 879px) {
+   .admin-section .admin-grid {
+      grid-template-columns: 50% 50%;
+   }
+
+   .admin-section .admin-grid .grid-item:nth-of-type(3) {
+      margin-top: 2rem;
+   }
+}
+
+
+@media screen and (max-width: 850px) {
+   .social-media-section .social-grid .grid-item {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 36rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 750px) {
+   .header-section .header-grid {
+      grid-template-columns: 100%;
+   }
+
+   .header-section .header-grid .header-left span br {
+      display: none;
+   }
+
+   .social-media-section .social-grid {
+      grid-template-columns: 100%;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(1) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 16rem 3rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(2) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 28rem 3rem;
+      margin-top: 2rem;
+   }
+
+   .social-media-section .social-grid .grid-item .button {
+      width: 100%;
+   }
+}
+
+
+@media screen and (max-width: 690px) {
+   .booking-section {
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+   }
+
+   .booking-section .title span {
+      display: inline;
+   }
+}
+
+
+@media screen and (max-width: 649px) {
+   .header-section .header-left h3 {
+      font-size: 2.5rem;
+      text-align: center;
+   }
+
+   .header-section .header-left span {
+      text-align: center;
+   }
+
+   .admin-section .admin-grid {
+      grid-template-columns: 100%;
+   }
+
+   .admin-section .admin-grid .grid-item {
+      padding: 2rem 3.5rem;
+   }
+
+   .admin-section .admin-grid .grid-item:nth-of-type(2) {
+      margin-top: 2rem;
+   }
+
+   .admin-section .admin-grid .grid-item .button {
+      width: 100%;
+   }
+
+   .booking-section .title h3 {
+      font-size: 2.2rem;
+   }
+}
+
+
+@media screen and (max-width: 579px) {
+
+   .social-media-section .social-grid .grid-item:nth-of-type(1) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 19rem 3rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(2) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 35rem 3rem;
+      margin-top: 2rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(3) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 22rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 530px) {
+   .header-section, .admin-section, .social-media-section {
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .header-section .header-grid .header-left {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   .header-section .header-right .services-img {
+      margin-left: 2rem;
+   }
+}
+
+
+@media screen and (max-width: 466px) {
+   .social-media-section .title h3, .admin-section .title h3 {
+      font-size: 1.7rem;
+   }
+
+   .header-section .header-left h3 {
+      font-size: 2rem;
+   }
+}
+
+
+@media screen and (max-width: 438px) {
+   .booking-section .title h3 {
+      font-size: 2rem;
+   }
+}
+
+
+@media screen and (max-width: 404px) {
+   .booking-section .title h3 {
+      font-size: 1.8rem;
+   }
+
+   .social-media-section .title h3, .admin-section .title h3 {
+      font-size: 1.5rem;
+   }
+
+   .header-section .header-left h3 {
+      font-size: 1.8rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(2) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 38rem 3rem;
+   }
+}
+
+
+@media screen and (max-width: 371px) {
+   .booking-section .title h3 {
+      font-size: 1.6rem;
+   }
+
+   .social-media-section .title h3, .admin-section .title h3 {
+      font-size: 1.4rem;
+   }
+
+   .social-media-section .title, .admin-section .title {
+      padding: 0 1.5rem;
+      text-align: center;
+   }
+
+   .social-media-section .title span, .admin-section .title span {
+      display: inline;
+   }
+
+   .header-section .header-left h3 {
+      font-size: 1.7rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(2) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 42rem 3rem;
+   }
+
+   .social-media-section .social-grid .grid-item:nth-of-type(3),
+   .social-media-section .social-grid .grid-item:nth-of-type(3) {
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 26rem 3rem;
+   }
 }
