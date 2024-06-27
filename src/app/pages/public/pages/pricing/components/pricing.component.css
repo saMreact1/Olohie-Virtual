@@ -645,6 +645,7 @@
 @media screen and (max-width: 371px) {
    .booking-section .title h3 {
       font-size: 1.6rem;
+      line-height: 34px;
    }
 
    .social-media-section .title h3, .admin-section .title h3 {
