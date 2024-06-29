@@ -47,6 +47,10 @@ body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height
   background-color: #FAFCF3;
 }
 
+/* .footer-section {
+  margin: 0 -15px;
+} */
+
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }

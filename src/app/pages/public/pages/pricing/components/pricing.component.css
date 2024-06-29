@@ -98,10 +98,10 @@
 }
 
 .admin-section .admin-grid {
-   padding: 3rem 3rem 1rem;
-   display: grid;
-   grid-template-columns: 32% 32% 32%;
-   grid-column-gap: 1.6rem;
+   padding: 3rem 1.5rem 1rem;
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    grid-column-gap: 1.3rem;
 }
 
 .admin-section .admin-grid .grid-item {
@@ -231,10 +231,10 @@
 }
 
 .social-media-section .social-grid {
-   padding: 3rem 3rem 1rem;
+   padding: 3rem 1.5rem 1rem;
    display: grid;
-   grid-template-columns: 32% 32% 32%;
-   grid-column-gap: 1.6rem;
+   grid-template-columns: 31.5% 31.5% 31.5%;
+   grid-column-gap: 1.3rem;
 }
 
 .social-media-section .social-grid .grid-item {

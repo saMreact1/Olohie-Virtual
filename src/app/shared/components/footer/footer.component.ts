@@ -26,7 +26,7 @@ import { ScrollService } from 'src/app/core/services/scroll.service';
           <span>Pricing</span>
         </a>
         
-        <a>
+        <a (click)="scrollToTop()" *ngIf="!isCurrentComponent('BlogComponent')" [routerLink]="['/blog']" routerLinkActive="active">
           <span>Blog</span>
         </a>
       </nav>

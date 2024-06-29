@@ -18,10 +18,10 @@ const publicRoutes: Routes = [
     path: 'pricing',
     loadChildren: () => import ('src/app/pages/public/pages/pricing/pricing.module').then(m => m.PricingModule)
   },
-  // {
-  //   path: 'blog',
-  //   loadChildren: () => import ('src/app/pages/public/pages/blog/blog.module').then(m => m.BlogModule)
-  // },
+  {
+    path: 'blog',
+    loadChildren: () => import ('src/app/pages/public/pages/blog/blog.module').then(m => m.BlogModule)
+  },
   {
     path: 'booking',
     loadChildren: () => import ('src/app/pages/public/pages/booking/booking.module').then(m => m.BookingModule)

@@ -1,8 +1,58 @@
-<div class="container">
+<div class="containerS">
    <section class="header-section">
       <app-nav></app-nav>
+      <div class="large-image">
+         <div class="image-text">
+            <div class="write-up">
+               <h3>
+                  How Virtual Assistants Revolutionize HR Management
+               </h3>
+               <p>
+                  In today's fast-paced business environment, staying on top of HR tasks can be overwhelming. But fear not with the rise of virtual assistants, managing HR processes has never been easier.
+               </p>
+            </div>
+            <span>
+               <a href="#">
+                  <img src="assets/img/arrow-icon.png" alt="">
+               </a>
+            </span>
+         </div>
+      </div>
    </section>
-   
-
-   <app-footer></app-footer>
+   <section class="blog-section">
+      <div class="title">
+         <h4>Also read</h4>
+      </div>
+      <div class="blog-grid">
+         <div class="blog-items" *ngFor="let item of blogGridItems">
+            <div>
+               <img [src]="item.firstSvg" alt="Blog Svgs" class="blogImages">
+            </div>
+            <div class="mt-2 img-title">
+               <span>
+                  About Virtual Assistance
+               </span>
+               <span>
+                  5 MIN READ
+               </span>
+            </div>
+            <div class="mt-2 item-title">
+               <h4>
+                  {{item.title}}
+               </h4>
+               <span>
+                  {{item.description}}
+               </span>
+            </div>
+            <div class="mt-2 item-date">
+               <span>
+                  MAR 12, 2024
+               </span>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="footer">
+      <app-footer></app-footer>
+   </section>
 </div>

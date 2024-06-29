@@ -48,7 +48,7 @@ import { BookingModalComponent } from '../booking/booking.component';
                   </a>
                </li>
                <li>
-                  <a>
+                  <a [routerLink]="['/blog']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
                      <span>Blog</span>
                   </a>
                </li>

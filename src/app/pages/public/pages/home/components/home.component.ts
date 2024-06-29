@@ -172,7 +172,8 @@ export class HomeComponent implements OnInit {
   }
 
   blogCall() {
-    // this.router.navigateByUrl('/blog');
+    this.router.navigateByUrl('/blog');
+    this.scrollService.scrollToTop();
     console.log("we are heading to blogs");
   }
 
