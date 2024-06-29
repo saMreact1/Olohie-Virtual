@@ -231,7 +231,7 @@
 }
 
 .social-media-section .social-grid {
-   padding: 3rem 1.5rem 1rem;
+   padding: 3rem 0 1rem;
    display: grid;
    grid-template-columns: 31.5% 31.5% 31.5%;
    grid-column-gap: 1.3rem;
@@ -456,7 +456,7 @@
 
 @media screen and (max-width: 1003px) {
    .social-media-section .social-grid {
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 48.5% 48.5%
    }
 
    .social-media-section .social-grid .grid-item {
@@ -578,12 +578,12 @@
    }
 
    .social-media-section .social-grid .grid-item:nth-of-type(2) {
-      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 35rem 3rem;
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 32rem 3rem;
       margin-top: 2rem;
    }
 
    .social-media-section .social-grid .grid-item:nth-of-type(3) {
-      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 22rem 3rem;
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 20rem 3rem;
    }
 }
 
@@ -601,6 +601,10 @@
 
    .header-section .header-right .services-img {
       margin-left: 2rem;
+   }
+
+   .social-media-section .social-grid {
+      padding: 3rem 1.5rem 1rem;
    }
 }
 
@@ -637,7 +641,7 @@
    }
 
    .social-media-section .social-grid .grid-item:nth-of-type(2) {
-      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 38rem 3rem;
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 32rem 3rem;
    }
 }
 
@@ -666,11 +670,6 @@
    }
 
    .social-media-section .social-grid .grid-item:nth-of-type(2) {
-      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 42rem 3rem;
-   }
-
-   .social-media-section .social-grid .grid-item:nth-of-type(3),
-   .social-media-section .social-grid .grid-item:nth-of-type(3) {
-      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 26rem 3rem;
+      grid-template-rows: 3rem 3.3rem 2.3rem 1.7rem 35rem 3rem;
    }
 }
